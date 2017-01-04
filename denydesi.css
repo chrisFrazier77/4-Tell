@@ -1,0 +1,858 @@
+/*************************************************************/
+
+/*          4-Tell STYLES							         */
+
+/*************************************************************/
+
+.searchBoostWrapper4T .search-wrap.full {
+  display: block !important;
+}
+.searchBoostWrapper4T .ul-title {
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+  font-size: 20px;
+  padding-left: 0px;
+  width: 100%;
+  letter-spacing: 2px;
+  font-family: 'book', sans-serif;
+  color: #222222;
+  display: block;
+}
+.searchBoostWrapper4T .searchCaption {
+  display: block !important;
+  cursor: pointer;
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  color: black;
+  text-align: center;
+  padding: 7px;
+  top: 15px;
+  overflow: hidden;
+}
+.searchBoostWrapper4T .expandSearch {
+  display: block !important;
+  cursor: pointer;
+  position: absolute;
+  left: 15px;
+  /* top: -20px; */
+  right: 15px;
+  /* background: #e34646; */
+  color: black;
+  text-align: center;
+  padding: 7px;
+  bottom: 15px;
+  /* display: none !important; */
+  /* width: 100%; */
+  overflow: hidden;
+}
+.searchBoostWrapper4T .tout1_searchBoost_4T .FourTellContainer .product4TCaption {
+  line-height: initial;
+}
+.searchBoostWrapper4T .tout1_searchBoost_4T .FourTellContainer .owl-carousel .owl-controls .owl-prev {
+  top: 100px;
+}
+.searchBoostWrapper4T .tout1_searchBoost_4T .FourTellContainer .owl-carousel .owl-controls .owl-next {
+  top: 100px;
+}
+.searchBoostWrapper4T .tout1_searchBoost_4T .SB4T2 .FourTellContainer .owl-carousel .owl-controls .owl-prev {
+  top: 165px;
+}
+.searchBoostWrapper4T .tout1_searchBoost_4T .SB4T2 .FourTellContainer .owl-carousel .owl-controls .owl-next {
+  top: 165px;
+}
+.searchBoostWrapper4T .tout1_searchBoost_4T #SearchBoostProdItemWrapper1 {
+  display: flex;
+  /* establish flex container */
+  flex-wrap: wrap;
+  /* enable flex items to wrap */
+  justify-content: space-around;
+}
+.searchBoostWrapper4T .tout1_searchBoost_4T #SearchBoostProdItemWrapper1 .product4T {
+  flex: 0 0 25%;
+  position: relative;
+}
+.searchBoostWrapper4T .tout1_searchBoost_4T .product4T {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.searchBoostWrapper4T .tout1_searchBoost_4T .product4T .description {
+  top: 172px;
+  display: none;
+}
+.searchBoostWrapper4T .tout1_searchBoost_4T .product4T .productTitle {
+  margin-bottom: 0px;
+}
+.searchBoostWrapper4T .tout1_searchBoost_4T .product4T .brand4T {
+  bottom: -65px;
+  height: 1.5em;
+  overflow: hidden;
+}
+.searchBoostWrapper4T .tout1_searchBoost_4T .selected .FourTellContainer .owl-carousel {
+  width: 100% !important;
+}
+.searchBoostWrapper4T .tout1_searchBoost_4T .selected .FourTellContainer .owl-carousel .product4T {
+  background: none !important;
+  position: relative;
+}
+.searchBoostWrapper4T .tout1_searchBoost_4T .selected .FourTellContainer .owl-carousel .product4T.selected {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.searchBoostWrapper4T .expandSearch:hover {
+  text-decoration: underline;
+}
+.searchBoostWrapper4T .closeButton {
+  display: block !important;
+  text-align: right;
+  cursor: pointer;
+  right: 10px;
+  position: absolute;
+  top: 8px;
+  color: #343434;
+  background: #f8f8f8;
+  padding: 3px 7px 3px 7px;
+  font-weight: bold;
+  border-radius: 2px;
+  z-index: 1;
+}
+.searchBoostWrapper4T .searchBoostRecWrapper4T ul {
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 40px;
+}
+.searchBoostWrapper4T .tout1_searchBoost_4T {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  float: right;
+}
+.searchBoostWrapper4T .SB4T {
+  table-layout: fixed;
+}
+.searchBoostWrapper4T .SB4T .product4T .productImage {
+  height: 128px;
+}
+.searchBoostWrapper4T .SearchBoostProd1 {
+  width: 65%;
+  float: left;
+}
+.searchBoostWrapper4T .SearchBoostProd2 {
+  width: 33%;
+  float: right;
+}
+.searchBoostWrapper4T .SearchBoostProd2 .product4T .productImage {
+  height: 128px;
+}
+.searchBoostWrapper4T .SearchBoostProd2Only1 {
+  width: 33%;
+  float: right;
+}
+.searchBoostWrapper4T .SearchBoostProd2Only1 .product4T .productImage {
+  height: 128px;
+}
+.searchBoostWrapper4T .categoryListWrapper {
+  display: inline-block;
+  width: 13%;
+  float: left;
+  margin-right: 3%;
+}
+.searchBoostWrapper4T .categoryListWrapper li {
+  margin: 7px 0px 7px 0px;
+  padding: 5px;
+}
+.searchBoostWrapper4T .categoryListWrapper li.category4T:hover {
+  cursor: pointer;
+  color: #e34646;
+}
+.searchBoostWrapper4T .categoryListWrapper li.category4T.selected {
+  pointer-events: none;
+  background: #f8f8f8;
+  color: black;
+}
+.searchBoostWrapper4T .productListWrapper {
+  float: right;
+  width: 27%;
+  float: left;
+  display: none;
+}
+.searchBoostWrapper4T .productListWrapper li {
+  margin: 7px 0px 7px 0px;
+  padding: 5px;
+}
+.searchBoostWrapper4T .productListWrapper li.searchProduct4T:hover {
+  cursor: pointer;
+  color: #e34646;
+}
+.searchBoostWrapper4T .productListWrapper li.searchProduct4T.selected {
+  pointer-events: none;
+  background: #f8f8f8;
+  color: black;
+}
+.searchBoostWrapper4T .searchBoostRecWrapper4T {
+  position: absolute;
+  top: 66px;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0px;
+  /* -webkit-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.75); */
+  -moz-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.75);
+  /* box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.75); */
+  background: white;
+  width: 404%;
+  min-height: 638px;
+  max-width: 1180px;
+  z-index: 10000000000000;
+  border: 1px solid #e2e2e2;
+  border-radius: 6px;
+  border-top-left-radius: 0px;
+  padding: 20px;
+  padding-top: 50px;
+}
+.searchBoostWrapper4T .searchBoostRecWrapper4T .product4T.selected {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+table {
+  border: 0px;
+}
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.state-indicator {
+  color: transparent;
+  position: absolute;
+  top: -999em;
+  left: -999em;
+  z-index: 1;
+}
+@media only screen and (min-width: 0px) and (max-width: 999px) {
+  .state-indicator {
+    z-index: 2;
+  }
+  .searchBoostWrapper4T {
+    display: none !important;
+  }
+}
+.FourTellContainer {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.FourTellContainer:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.toutWrapper4T {
+  background: none;
+}
+.product4TCaption {
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'book', sans-serif;
+  color: #222222;
+}
+.product4T {
+  background-color: transparent;
+  padding: 5px 0;
+  margin: 0 auto;
+  width: 100%;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+}
+.product4T .productImage {
+  margin: 10px 0;
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+.product4T .productImage img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  width: auto;
+  height: auto;
+  border: none;
+  display: inline;
+}
+.product4T .ratingImage .ratingImageImg {
+  border: none;
+  vertical-align: middle;
+  display: inline;
+  padding: 2px;
+}
+.product4T .brand4T {
+  font-family: 'book', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  display: block;
+  letter-spacing: 0;
+  font-size: 12px;
+  color: #bbbbbb;
+  position: absolute;
+  bottom: -64px;
+}
+.product4T .pType4T {
+  font-family: 'book', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  display: block;
+  letter-spacing: 0;
+  font-size: 12px;
+  color: #bbbbbb;
+  position: absolute;
+  bottom: -46px;
+  text-transform: capitalize;
+}
+.product4T .productTitle {
+  color: #222222;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-family: 'book', sans-serif;
+  text-transform: uppercase;
+  height: 1em;
+  line-height: 1;
+  overflow: hidden;
+}
+.product4T .productTitle:hover {
+  color: #45c6cc;
+}
+.product4T .productPrice {
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  font-weight: normal;
+  margin-top: 46px;
+  color: #222222;
+  font-family: 'book', sans-serif;
+}
+.product4T .strikePrice {
+  display: inline-block;
+  margin-right: 2px;
+}
+.product4T .strikePrice span.label {
+  text-decoration: line-through;
+  color: red;
+}
+.product4T .productSalePrice {
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  font-weight: normal;
+  margin-top: 46px;
+  display: inline-block;
+  color: #222222;
+  font-family: 'book', sans-serif;
+  display: inline;
+}
+.product4T .productBuy {
+  text-decoration: none;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  right: 0;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: none;
+}
+.product4T .productBuy img,
+.product4T .productBuy input {
+  max-width: 100%;
+  border: medium none;
+  padding: 0px;
+  width: 100%;
+  font-size: 13px;
+  height: 38px;
+  line-height: initial;
+  text-align: center;
+  margin: auto;
+  padding: 0px !important;
+  background: #e34646;
+  color: white;
+  position: absolute;
+  border-radius: 6px;
+  bottom: 90px;
+  font-family: 'book', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  background-color: #222222;
+  padding: 9px 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  display: -moz-inline-stack;
+  display: none;
+}
+.product4T .productBuy input.similar {
+  display: bock;
+  display: -moz-inline-stack;
+  bottom: 90px;
+}
+.product4T .productBuy img:hover,
+.product4T .productBuy input:hover {
+  background-color: #45c6cc;
+  color: white;
+}
+/* For scrollables. */
+
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+
+.owl-carousel .owl-wrapper:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* display none until init */
+
+.owl-carousel {
+  display: none;
+  position: relative;
+  width: 100%;
+  -ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight {
+  -webkit-transition: height 500ms ease-in-out;
+  -moz-transition: height 500ms ease-in-out;
+  -ms-transition: height 500ms ease-in-out;
+  -o-transition: height 500ms ease-in-out;
+  transition: height 500ms ease-in-out;
+}
+/* mouse grab icon */
+
+.grabbing {
+  cursor: url(grabbing.png) 8 8, move;
+}
+/* fix */
+
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+.FourTellContainer .owl-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.FourTellContainer .owl-carousel .owl-wrapper-outer .owl-wrapper {
+  position: relative;
+}
+.FourTellContainer .owl-carousel .owl-wrapper-outer .owl-wrapper .owl-item {
+  float: left;
+}
+.FourTellContainer .owl-carousel .owl-wrapper-outer .owl-wrapper .owl-item .product4T {
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3%;
+  background: white;
+}
+.FourTellContainer .owl-carousel .owl-controls {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  z-index: 11;
+  position: absolute;
+  left: 0;
+  /*top: 40%;*/
+  top: 0;
+  height: auto;
+  width: 100%;
+  /*.owl-next {
+                background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAwCAMAAAD5JNAAAAAAqFBMVEX///+wsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLG4mILSAAAAN3RSTlMAAQIDCAkLEhMaIiorLTg9QENHTlZcX2JkZn2Bg4uhpaetuL/Fx87Y3N7h6Onq7PL0+fr7/P3+pwOaKAAAAMhJREFUeF7d0EeywkAMRdE2tsGRnKOJDmTa9Nv/zj71B2ppwAa4szORqp6iGr21YjXHp4uVGy9z1ES/vQGs/UEBa7e1Ohuy4/WzG0COZgeAeQIID6uncNDJHsb6UzLPDfm/6VELq3R3F1bh4qrxVrZgtH9pxetuSwva4xda9xrC5bYrrF/7UcD8hr4uQusawH2XCkMfp8Iw+TzhhnlknYAZeFZDYWAifJhFzLes7zlkc161XHa/GPj8/6b9ITlfxq6iLqdx89sef8r8Ldm5n+0eAAAAAElFTkSuQmCC') no-repeat;
+                background-position-x: 0px !important;
+                background-position: 0px -30px !important;
+                position: absolute !important;
+                right: 0px;
+                top: 200px;
+                float: right;
+            }*/
+
+  /*.owl-prev {
+                background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAwCAMAAAD5JNAAAAAAqFBMVEX///+wsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLGwsLG4mILSAAAAN3RSTlMAAQIDCAkLEhMaIiorLTg9QENHTlZcX2JkZn2Bg4uhpaetuL/Fx87Y3N7h6Onq7PL0+fr7/P3+pwOaKAAAAMhJREFUeF7d0EeywkAMRdE2tsGRnKOJDmTa9Nv/zj71B2ppwAa4szORqp6iGr21YjXHp4uVGy9z1ES/vQGs/UEBa7e1Ohuy4/WzG0COZgeAeQIID6uncNDJHsb6UzLPDfm/6VELq3R3F1bh4qrxVrZgtH9pxetuSwva4xda9xrC5bYrrF/7UcD8hr4uQusawH2XCkMfp8Iw+TzhhnlknYAZeFZDYWAifJhFzLes7zlkc161XHa/GPj8/6b9ITlfxq6iLqdx89sef8r8Ldm5n+0eAAAAAElFTkSuQmCC') no-repeat;
+                background-position-x: 0px;
+                background-position-y: 0px;
+                position: absolute;
+                left: 0px;
+                top: 200px;
+                float: left;
+            }*/
+
+}
+.FourTellContainer .owl-carousel .owl-controls .owl-buttons div {
+  display: block !important;
+  -webkit-border-radius: 0px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 14px !important;
+  height: 20px !important;
+  cursor: pointer;
+  display: none !important;
+}
+.FourTellContainer .owl-carousel .owl-controls .owl-next {
+  position: absolute;
+  right: 0px;
+}
+.FourTellContainer .owl-carousel .owl-controls .owl-next:before {
+  content: "\f105";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  /*--adjust as necessary--*/
+  text-shadow: 0px 1px 2px rgba(101, 101, 101, 0.9);
+  font-size: 40px;
+  color: #4c4949;
+  position: absolute;
+  top: 72px;
+  right: 0px;
+}
+.FourTellContainer .owl-carousel .owl-controls .owl-prev {
+  position: absolute;
+}
+.FourTellContainer .owl-carousel .owl-controls .owl-prev:before {
+  content: "\f104";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  /*--adjust as necessary--*/
+  text-shadow: 0px 1px 2px rgba(101, 101, 101, 0.9);
+  font-size: 40px;
+  color: #4c4949;
+  position: absolute;
+  top: 72px;
+  left: 0px;
+}
+/* Quite necessary; customize to fit. */
+
+.items .scrollGroup,
+.items .product4T {
+  float: left;
+}
+/* For the buttons. */
+
+a.browse {
+  background: url(../images/hori_large.png) no-repeat;
+  display: block;
+  width: 15px;
+  height: 18px;
+  float: left;
+  margin: 100px 0 0;
+  cursor: pointer;
+  font-size: 1px;
+}
+a.right {
+  background-position: 0 -30px;
+  clear: right;
+  margin-right: 10px;
+}
+a.left {
+  background-position: 0 0;
+  margin-left: 10px;
+}
+a.disabled {
+  visibility: hidden !important;
+}
+/* Here follows custom classes, so as to permit each page to have its own
+* custom CSS. */
+
+/* START 4U PAGE */
+
+#clickMe4T {
+  display: block;
+  font-family: "Open Sans";
+  border: solid 1px #dbe3e5;
+  font-weight: normal;
+  text-transform: none;
+  cursor: pointer;
+  background: black;
+  color: white;
+  position: fixed;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  font-size: 16px;
+  float: right;
+  right: -78px;
+  /* padding: 10px; */
+  padding: 5px 10px;
+  top: 590px;
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.FPR4T {
+  width: 80%;
+  margin: 80px auto 0px;
+}
+.fprPopUpOverlay4T {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000000;
+  background: rgba(0, 0, 0, 0.4);
+}
+.fprPopUpOverlay4T .popUpWrapper4T {
+  background: white;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  border-radius: 6px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.fprPopUpOverlay4T .logo4T {
+  margin: auto;
+  display: block;
+  width: 18%;
+  max-width: 475px;
+  margin-left: 2.5%;
+  float: left;
+}
+.fprPopUpOverlay4T .closeButton {
+  display: block;
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
+  color: #3c4663;
+  font-size: 1.2em;
+  text-decoration: none;
+  cursor: pointer;
+  float: right;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 2.5%;
+}
+.fprPopUpOverlay4T .closeButton2 {
+  display: block;
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
+  color: #3c4663;
+  font-size: 1.2em;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 2.5%;
+  float: right;
+}
+.fprPopUpOverlay4T .closeButton2:hover {
+  color: #f56017;
+}
+.fprPopUpOverlay4T .closeButton:hover {
+  color: #f56017;
+}
+.fprPopUpOverlay4T .title4T {
+  font-size: 1.2em;
+  font-style: italic;
+  margin: 0 0 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  width: 95%;
+  margin: auto;
+  margin-top: 80px;
+  /* padding-bottom: 30px; */
+  line-height: 1.5;
+  border-bottom: 1px solid #afafaf;
+  clear: both;
+  background: black;
+}
+.fprPopUpOverlay4T .subtitle4T {
+  font-size: 1.5em;
+  margin: 0 0 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  width: 95%;
+  margin: auto;
+  display: none;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  line-height: 1.5;
+  border-bottom: 1px solid #afafaf;
+  clear: both;
+  background: black;
+}
+/* END 4U PAGE */
+
+/* Tout1 on PD page. */
+
+.PD14T {
+  table-layout: fixed;
+}
+.PD14T .product4TCaption {
+  font-size: 14px;
+  margin: 0px;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 0;
+  color: #222222;
+  font-family: 'book', sans-serif;
+  text-align: center;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 12px;
+  border-bottom: 1px dashed #dddddd;
+  border-top: 1px dashed #dddddd;
+}
+/* Tout2 on PD page */
+
+.PD24T {
+  table-layout: fixed;
+}
+.PD24T .product4TCaption {
+  font-size: 14px;
+  margin: 0px;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 0;
+  color: #222222;
+  font-family: 'book', sans-serif;
+  text-align: center;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 12px;
+  border-bottom: 1px dashed #dddddd;
+  border-top: 1px dashed #dddddd;
+}
+/* Tout3 on PD page */
+
+.PD34T {
+  table-layout: fixed;
+}
+.PD34T .product4TCaption {
+  font-size: 14px;
+  margin: 0px;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 0;
+  color: #222222;
+  font-family: 'book', sans-serif;
+  text-align: center;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 12px;
+  border-bottom: 1px dashed #dddddd;
+  border-top: 1px dashed #dddddd;
+}
+/* end Tout2 on PD page */
+
+/* Tout on the home page. */
+
+.HOME4T {
+  border: 0px;
+  table-layout: fixed;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.HOME4T .product4TCaption {
+  padding: 0 10px;
+}
+/* Category pages */
+
+.CAT4T {
+  table-layout: fixed;
+  margin: 50px 0 0;
+}
+.CAT4T #CategoryItemWrapper1 {
+  display: flex;
+  /* establish flex container */
+  flex-wrap: wrap;
+  /* enable flex items to wrap */
+  justify-content: space-around;
+}
+.CAT4T #CategoryItemWrapper1 .product4T {
+  flex: 0 0 33%;
+}
+.CAT4T #CategoryItemWrapper1 .product4T .productImage {
+  height: 282px;
+}
+@media only screen and (min-width: 0px) and (max-width: 999px) {
+  .CAT4T .product4T {
+    flex: 0 0 50% !important;
+  }
+}
+/* Search */
+
+/* View Cart */
+
+.VC4T {
+  table-layout: fixed;
+}
+/* Checkout */
+
+/* Quick Cart */
+
+/* Quick view */
+
+/* 404 Page */
+
+.EP4T {
+  table-layout: fixed;
+}
